@@ -9,4 +9,4 @@ node(agentName) { //run this part on an agent with label 'linux'
                 sh "mvn clean package"
         }
 }
-}
+
