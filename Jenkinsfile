@@ -1,4 +1,3 @@
-@Library('my-shared-library') _
 def agentName = 'linux'
 def someText = 'Hello!'
 
