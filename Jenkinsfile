@@ -1,4 +1,3 @@
-import src.Shared.groovy
 def agentName = 'linux'
 def someText = 'Hello!'
 
