@@ -1,6 +1,8 @@
 package ExampleA
 
-def imageName="maven:3.9.8-amazoncorretto-11"
+def (String imageName){
 docker.iamge(imagename).pull()
 docker.image(imagename).inside()
+sh "maven clean package"
+}
 return this 
