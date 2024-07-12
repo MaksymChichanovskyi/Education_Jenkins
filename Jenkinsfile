@@ -1,4 +1,4 @@
-import Shared.groovy
+import src.Shared.groovy
 def agentName = 'linux'
 def someText = 'Hello!'
 
