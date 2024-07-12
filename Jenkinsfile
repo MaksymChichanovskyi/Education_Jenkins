@@ -11,4 +11,4 @@ stage('Checkout') {
       def imageName= "maven:3.9.8-amazoncorretto-11"
       installMaven(imageName)
         }   
-}
+
