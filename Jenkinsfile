@@ -6,8 +6,7 @@ node(agentName) { //run this part on an agent with label 'linux'
         checkout scm
     }
   stage('Build') {
-      
-       void installMaven(imageName)
-        }
+    installMaven(StringimageName)
+    }
 }
 
