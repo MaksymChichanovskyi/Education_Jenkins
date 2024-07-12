@@ -1,6 +1,6 @@
 package ExampleA
 
-def (String imageName){
+def call (String imageName){
 docker.image(imagename).pull()
 docker.image(imagename).inside()
 sh "maven clean package"
