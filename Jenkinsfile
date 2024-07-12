@@ -7,7 +7,7 @@ node(agentName) { //run this part on an agent with label 'linux'
     }
   stage('Build') {
       
-       def installMaven(imageName)
+       void installMaven(imageName)
         }
 }
 
