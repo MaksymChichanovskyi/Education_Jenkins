@@ -6,7 +6,10 @@ node(agentName) { //run this part on an agent with label 'linux'
         checkout scm
     }
   stage('Build') {
-    installMaven(String imageName)
+      script{
+    def imageName = "maven:3.9.8-amazoncorretto-11"      
+    ExampleA.installMaven(String imageName)
+      }
     }
 }
 
