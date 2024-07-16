@@ -1,3 +1,4 @@
+@Library('Shared.groovy') _
 def agentName = 'linux'
 def someText = 'Hello!'
 
