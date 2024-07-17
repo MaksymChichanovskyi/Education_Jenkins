@@ -1,5 +1,3 @@
-zimport ExampleA
-
 def agentName = 'linux'
 def someText = 'Hello!'
 
