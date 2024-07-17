@@ -6,7 +6,7 @@ node(agentName) { //run this part on an agent with label 'linux'
         checkout scm
     }
   stage('Build') {
-    def installMaven {
+    def installMaven (String imageName ) {
     sh 'mvn clean package'
     }
 }
