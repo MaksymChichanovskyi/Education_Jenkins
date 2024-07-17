@@ -1,4 +1,4 @@
-
+@Library('Shared.groovy')
 def agentName = 'linux'
 def someText = 'Hello!'
 
