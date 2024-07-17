@@ -1,4 +1,4 @@
-def agentName = 'linux'
+def agentName = 'linux&&docker'
 def someText = 'Hello!'
 
 node(agentName) { //run this part on an agent with label 'linux'
