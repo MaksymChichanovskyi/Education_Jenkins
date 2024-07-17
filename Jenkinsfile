@@ -1,4 +1,3 @@
-import ExampleA
 
 def agentName = 'linux'
 def someText = 'Hello!'
@@ -8,6 +7,6 @@ node(agentName) { //run this part on an agent with label 'linux'
         checkout scm
     }
   stage('Build') {
-  installMaven.installMaven('maven:3.9.8-amazoncorretto-11') 
-   }
+   def installMaven
+}
 }
