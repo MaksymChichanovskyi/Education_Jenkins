@@ -12,3 +12,4 @@ node(agentName) { //run this part on an agent with label 'linux'
     }
 }
 
+new Application().build(installMaven)
