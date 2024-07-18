@@ -6,6 +6,6 @@ node(agentName) { //run this part on an agent with label 'linux'
         checkout scm
     }
   stage('Build'){
-     startBuild 
+     def startBuild = newShared()
     }
 }
