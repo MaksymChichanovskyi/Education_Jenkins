@@ -1,3 +1,5 @@
+import ExampleA.Shared
+
 def agentName = 'linux && docker'
 def someText = 'Hello!'
 
@@ -6,6 +8,7 @@ node(agentName) { //run this part on an agent with label 'linux'
         checkout scm
     }
   stage('Build'){
-     def startBuild 
+     def shared = new Shared()
+      shared.startBuild()
     }
 }
